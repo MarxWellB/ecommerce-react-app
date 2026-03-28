@@ -1,51 +1,30 @@
 # React E-commerce Simulation
 
-Frontend-focused e-commerce application built to simulate real-world user interactions and system behavior.
+Live Demo: https://reactmarxwell.vercel.app/
 
 ---
 
-## Demo
+## Screenshots
 
-https://reactmarxwell.vercel.app/
+### Home
+
+![Home](./screenshots/home.png)
+
+### Shopping Cart
+
+![Cart](./screenshots/cart.png)
+
+### Infinite Scroll
+
+![Scroll](./screenshots/scroll.png)
 
 ---
 
 ## Overview
 
-This project was developed as part of my transition from full-stack development into a more focused **frontend role**.
+This project is a frontend-focused e-commerce simulation designed to replicate real-world user behavior and interaction patterns.
 
-While my background includes building complete backend systems and full-stack platforms, this project represents a deliberate effort to strengthen my frontend skills by implementing realistic UI behavior and user flows.
-
-Rather than focusing on complexity at the system level, this application emphasizes **good technical decisions on the frontend**, including state handling, persistence, and dynamic rendering.
-
----
-
-## Preview
-
-**Home**
-
-![Connectly Preview](/screenshots/home.png)
-
-
-
-**Cart**
-
-![Connectly Preview](/screenshots/cart.png)
-
-
-**Scroll**
-
-![Connectly Preview](/screenshots/scroll.png)
-
-
-**Login**
-
-![Connectly Preview](/screenshots/user.png)
-
-
-**Payment Page**
-
-![Connectly Preview](/screenshots/buy.png)
+It was built as part of my transition from full-stack development to a more specialized frontend role, focusing on practical UI behavior, state management, and user experience.
 
 ---
 
@@ -59,40 +38,30 @@ Rather than focusing on complexity at the system level, this application emphasi
 
 ---
 
-## Frontend Focus
-
-This project prioritizes frontend behavior and user experience:
-
-* State management for cart and session simulation
-* Persistent data handling using localStorage
-* Dynamic rendering and UI updates
-* Component-based structure for scalability
-* Realistic interaction flows similar to production applications
-
----
-
 ## Technical Decisions
 
-* Implemented **localStorage persistence** to simulate real session continuity
-* Designed **infinite scrolling** for improved UX and performance
-* Structured components to allow future scaling and refactoring
-* Focused on **user-driven state changes** rather than static rendering
+* **LocalStorage persistence**
+  Used to simulate real session continuity and maintain cart state across reloads.
+
+* **Infinite Scroll (Intersection Observer)**
+  Implemented to improve performance and user experience by loading content progressively.
+
+* **Component-based architecture**
+  Structured UI into reusable components for scalability and maintainability.
+
+* **Client-side state handling**
+  Focused on managing dynamic UI behavior without external state libraries.
 
 ---
 
-## Project Context
+## Frontend Focus
 
-This project is part of my progression as a developer.
+This project prioritizes frontend behavior and interaction:
 
-I previously worked on more complex full-stack systems, including backend architecture and database design.
-This application reflects my current focus on improving frontend skills and building strong, interactive user interfaces.
-
-More recent work shows continued improvement in:
-
-* Code structure
-* Naming conventions
-* Component design
-* Frontend architecture
+* Dynamic rendering based on user actions
+* Persistent UI state across sessions
+* Simulated real-world flows (login, cart, purchase)
+* Separation of UI logic into reusable components
 
 ---
 
@@ -100,30 +69,50 @@ More recent work shows continued improvement in:
 
 * React
 * JavaScript
-* CSS / UI styling
-* LocalStorage API
+* Vite
+* CSS
 
 ---
 
-## Purpose
+## Getting Started
 
-The goal of this project is not to replicate a production e-commerce platform, but to demonstrate:
+```bash
+git clone https://github.com/MarxWellB/ecommerce-react-app.git
+cd ecommerce-react-app
+npm install
+npm run dev
+```
+
+---
+
+## Project Context
+
+This project reflects my transition from building full-stack systems to focusing on frontend development.
+
+While the implementation is intentionally simple in terms of tooling, the emphasis is on:
 
 * Practical frontend problem solving
-* Understanding of real-world UI behavior
-* Ability to implement dynamic and interactive applications
+* Realistic user interaction patterns
+* Clean UI behavior and state handling
+
+More recent projects in my portfolio show improvements in:
+
+* Code structure
+* Naming conventions
+* Frontend architecture
 
 ---
 
 ## Future Improvements
 
-* Refactor into more modular architecture
-* Introduce global state management (Context / Redux)
-* Improve UI consistency and design system
+* Introduce TypeScript for stronger type safety
+* Improve state management with Context API or Zustand
+* Enhance UI with a design system (e.g. Tailwind CSS)
+* Add filtering, search, and category features
 * Connect to a real backend API
 
 ---
 
 ## Conclusion
 
-This project reflects my transition from full-stack development into a more specialized frontend role, focusing on building interactive, user-centered applications with solid technical foundations.
+This project demonstrates my ability to build interactive frontend applications with realistic behavior, focusing on user experience and dynamic state management.
