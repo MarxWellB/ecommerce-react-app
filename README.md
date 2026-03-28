@@ -17,19 +17,19 @@ Rather than focusing on complexity at the system level, this application emphasi
 ## Preview
 
 **Home**
-![Connectly Preview](/screenshot/home.png)
+![Connectly Preview](/screenshots/home.png)
 --
 **Cart**
-![Connectly Preview](/screenshot/cart.png)
+![Connectly Preview](/screenshots/cart.png)
 --
 **Scroll**
-![Connectly Preview](/screenshot/scroll.png)
+![Connectly Preview](/screenshots/scroll.png)
 --
 **Login**
-![Connectly Preview](/screenshot/user.png)
+![Connectly Preview](/screenshots/user.png)
 --
 **Payment Page**
-![Connectly Preview](/screenshot/buy.png)
+![Connectly Preview](/screenshots/buy.png)
 
 ---
 
