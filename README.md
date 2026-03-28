@@ -1,16 +1,113 @@
-# React + Vite
+# React E-commerce Simulation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend-focused e-commerce application built to simulate real-world user interactions and system behavior.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Overview
 
-## React Compiler
+This project was developed as part of my transition from full-stack development into a more focused **frontend role**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+While my background includes building complete backend systems and full-stack platforms, this project represents a deliberate effort to strengthen my frontend skills by implementing realistic UI behavior and user flows.
 
-## Expanding the ESLint configuration
+Rather than focusing on complexity at the system level, this application emphasizes **good technical decisions on the frontend**, including state handling, persistence, and dynamic rendering.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Preview
+
+**Home**
+![Connectly Preview](./screenshot/home.png)
+--
+**Cart**
+![Connectly Preview](./screenshot/cart.png)
+--
+**Scroll**
+![Connectly Preview](./screenshot/scroll.png)
+--
+**Login**
+![Connectly Preview](./screenshot/user.png)
+--
+**Payment Page**
+![Connectly Preview](./screenshot/buy.png)
+
+---
+
+## Key Features
+
+* Infinite scroll product loading
+* Shopping cart with localStorage persistence
+* Simulated authentication flow
+* Purchase flow simulation
+* Dynamic UI updates based on user interaction
+
+---
+
+## Frontend Focus
+
+This project prioritizes frontend behavior and user experience:
+
+* State management for cart and session simulation
+* Persistent data handling using localStorage
+* Dynamic rendering and UI updates
+* Component-based structure for scalability
+* Realistic interaction flows similar to production applications
+
+---
+
+## Technical Decisions
+
+* Implemented **localStorage persistence** to simulate real session continuity
+* Designed **infinite scrolling** for improved UX and performance
+* Structured components to allow future scaling and refactoring
+* Focused on **user-driven state changes** rather than static rendering
+
+---
+
+## Project Context
+
+This project is part of my progression as a developer.
+
+I previously worked on more complex full-stack systems, including backend architecture and database design.
+This application reflects my current focus on improving frontend skills and building strong, interactive user interfaces.
+
+More recent work shows continued improvement in:
+
+* Code structure
+* Naming conventions
+* Component design
+* Frontend architecture
+
+---
+
+## Tech Stack
+
+* React
+* JavaScript
+* CSS / UI styling
+* LocalStorage API
+
+---
+
+## Purpose
+
+The goal of this project is not to replicate a production e-commerce platform, but to demonstrate:
+
+* Practical frontend problem solving
+* Understanding of real-world UI behavior
+* Ability to implement dynamic and interactive applications
+
+---
+
+## Future Improvements
+
+* Refactor into more modular architecture
+* Introduce global state management (Context / Redux)
+* Improve UI consistency and design system
+* Connect to a real backend API
+
+---
+
+## Conclusion
+
+This project reflects my transition from full-stack development into a more specialized frontend role, focusing on building interactive, user-centered applications with solid technical foundations.
